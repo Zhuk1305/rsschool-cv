@@ -42,3 +42,26 @@ function sum(a,b) {
 }
 sum(4,5)
 ```
+
+---
+
+### Experience
+
+- Chess trainer 2 years
+- Frontend developer since 2020
+
+---
+
+### Education
+
+- Belarusian State University of Informatics and Radioelectronics, 2017-2021
+  - Engineer designer of electronic security systems
+- Udemy – Vue JS 2: From Beginner to Professional (includes Vuex)
+
+---
+
+### Languages
+
+- English - Pre-intermediate/Intermediate
+- Russian - Native
+- Belarusian - Intermediate
