@@ -1,3 +1,95 @@
-.some {
-    color:red;
+@font-face {
+  font-family: Garet;
+  src: url(fonts/Garet-Book.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Garet;
+}
+main {
+  display: flex;
+}
+h1 {
+  font-size: 40px;
+  margin: 20px 0;
+  color: #f4f3f3;
+}
+h2 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+.bold-text {
+  font-weight: bold;
+}
+.header-container {
+  background-color: #5b4e46;
+  color: #f4f3f3;
+  padding: 15px 10%;
+  font-size: 20px;
+  max-height: 50px;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list > li {
+  list-style-type: none;
+}
+.nav-list > li > a {
+  text-decoration: none;
+  color: #f4f3f3;
+}
+.nav-list > li > a:hover {
+  color: #fad7a0;
+}
+
+.my-info {
+  background-color: #5b4e46;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f4f3f3;
+}
+.my-info__img {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  align-items: center;
+}
+.my-info__img > img {
+  width: 100%;
+}
+.name-prof {
+  width: 100%;
+  padding: 0 20px;
+}
+.name-prof > h2 {
+  color: #ae795c;
+}
+
+.about-myself {
+  background-color: #8e857f;
+  width: 100%;
+  padding: 10px 20px 30px;
+  text-align: justify;
+}
+.contact-container {
+  width: 100%;
+  padding: 10px 0 30px 20px;
+}
+.contact-container > ul {
+  list-style-type: none;
+}
+.contact-container > ul > li {
+  margin: 10px 0;
+}
+.special-info {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
