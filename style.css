@@ -109,7 +109,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px 5px;
 }
 .developer-container {
   display: flex;
@@ -139,5 +139,14 @@ h2 {
 @media (max-width: 620px) {
   .header-container {
     display: none;
+  }
+  main {
+    flex-direction: column;
+  }
+  .my-info {
+    width: 100%;
+  }
+  .special-info {
+    width: 100%;
   }
 }
