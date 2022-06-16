@@ -9,17 +9,18 @@
   box-sizing: border-box;
   font-family: Garet;
   line-height: 22px;
+  font-size: 14px;
 }
 main {
   display: flex;
 }
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   margin: 30px 0;
   color: #f4f3f3;
 }
 h2 {
-  font-size: 25px;
+  font-size: 20px;
   margin: 20px 0;
 }
 .bold-text {
@@ -64,6 +65,7 @@ h2 {
 }
 .my-info__img > img {
   width: 100%;
+  max-height: 300px;
 }
 .name-prof {
   width: 100%;
@@ -114,4 +116,28 @@ h2 {
   flex-direction: column;
   align-items: center;
   padding: 0 20%;
+}
+@media (max-width: 1200px) {
+  * {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .header-container {
+    padding: 0;
+  }
+  .contact-container {
+    padding: 0;
+  }
+}
+@media (max-width: 620px) {
+  .header-container {
+    display: none;
+  }
 }
